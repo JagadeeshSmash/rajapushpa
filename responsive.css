@@ -1,0 +1,411 @@
+@media (max-width: 424px) {
+    /*header*/
+    header .topnav{
+        display: none;
+        }
+    .canvabtn{
+        display: none;
+    }
+    .navbar-nav{
+        padding: 0 !important;
+        background-color: black;
+    }
+    .nav-link{
+        color: white;
+        transition-duration: 0.20s;
+    }
+    .navbar-nav .nav-link:hover{
+        background-color: white;
+        color: black;
+    }
+    /*carousel*/
+    .carousel{
+        z-index: -2;
+    }
+    /*reasonto*/
+    .reasonsto .pad{
+        padding: 0px !important;
+    }
+    .reasonsto p{
+        padding: 0px;
+    }
+    .reasonsto h1{
+        font-size: 20px;
+    }
+    /*Featured projects1*/
+    .projects .container{
+        padding: 0;
+    }
+    .projects .info{
+        height: 140px;
+    }
+    .projects img{
+        width: 15%;
+    }
+    .text p, .text h6{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .projects .links{
+        width: 100px;
+        margin:2 0 0 20px;
+    }
+    .projects .links button{
+        width:100px;
+        margin: 0 0 10px 0;
+    }
+    .projects .links button a{
+        font-size: 10px;
+    }
+    /*images*/
+    .images .container,
+    .images .row{
+        padding: 10 !important;
+    }
+    .images .card{
+        margin-bottom: 20px;
+    }
+    /*every property*/
+    .everyproperty .features{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .everyproperty{
+        padding: 0 !important;
+    }
+    /*contact*/
+    .contact textarea{
+        width: 371px;
+    }
+    /*chatwithbot*/
+    .chatwithbot  button{
+        padding: 2px;
+    }
+    /*connect*/
+    .connect{
+        margin-left: 70% !important;
+    }
+    .connect img{
+       width: 80%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575px) {
+    /*header*/
+    header .topnav{
+        display: none;
+    }
+    .canvabtn{
+        display: none;
+    }
+    .navbar-nav{
+        padding: 0 !important;
+    }
+    header i{
+        margin:0 1px;
+        padding: 0 1px;
+    }
+    .navbar-nav{
+        padding: 0 !important;
+        background-color: black;
+    }
+    .nav-link{
+        color: white;
+        transition-duration: 0.20s;
+    }
+    .navbar-nav .nav-link:hover{
+        background-color: white;
+        color: black;
+    }
+    /*carousel*/
+    .carousel{
+        z-index: -2;
+    }
+    /*reasonto*/
+    .reasonsto .pad{
+        padding: 0px !important;
+    }
+    .reasonsto p{
+        padding: 0px ;
+    }
+    /*Featured projects1*/
+    .text p, .text h6{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    /*images*/
+    .images .container,
+    .images .row{
+        padding: 10px !important;
+    }
+    .images .card{
+        margin-bottom: 20px;
+    }
+    /*every property*/
+    .everyproperty .features{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .everyproperty{
+        padding: 0 !important;
+    }
+    /*every property*/
+    .everyproperty .features{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .everyproperty{
+        padding: 0 !important;
+    }
+    /*contact*/
+    .contact textarea{
+        width: 380px;
+    }
+    /*chatwithbot*/
+    .chatwithbot  button{
+        padding: 3px;
+    }
+    /*connect*/
+    .connect{
+        margin-left: 80% !important;
+    }
+    .connect img{
+        width: 80%;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /*header*/
+    header .topnav{
+        display: block;
+        }
+    header i{
+        margin:0 0px;
+        padding: 0 1px;
+
+    } 
+    .navbar-nav{
+        padding: 0 !important;
+        background-color: black;
+    }
+    .nav-link{
+        color: white;
+        transition-duration: 0.20s;
+    }
+    .navbar-nav .nav-link:hover{
+        background-color: white;
+        color: black;
+    }
+    /*carousel*/
+    .carousel{
+        z-index: -2;
+    }
+    /*reasonto*/
+    .reasonsto .pad{
+        padding: 0px !important;
+    }
+    .reasonsto p{
+        padding: 0px ;
+    }
+    /*images*/
+    .images .container,
+    .images .row{
+        padding: 5px !important;
+    }
+    .images .card{
+        margin-bottom: 20px;
+    }
+    /*every property*/
+    .everyproperty .features{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .everyproperty{
+        padding: 0 !important;
+    }    
+    /*contact*/
+    .contact textarea{
+        width: 515px;
+    }
+    /*chatwithbot*/
+    .chatwithbot  button{
+        padding: 4px;
+    }
+    /*connect*/
+    .connect{
+        margin-left: 85% !important;
+    }
+    .connect img{
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .info, .info1 {
+        padding: 1rem;
+        text-align: center;
+    }
+    .links button {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .carousel-item img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*header*/
+    .navbar-nav{
+        padding: 0 !important;
+    }
+    .canvabtn{
+        display: block;
+    }
+    .navt{
+        display: none;
+        margin-left: 70%;
+    }
+    header i{
+        margin:0 0px;
+        padding: 0 5px;
+    }
+    /*reasonto*/
+    .reasonsto .pad{
+        padding: 0px !important;
+    }
+    .reasonsto p{
+        padding: 0px ;
+    }
+    /*images*/
+    .images .card{
+        margin-bottom: 20px;
+    }
+    /*every property*/
+    .everyproperty .features{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .everyproperty .features img{
+        width: 30%;
+    }
+    .navbar-nav{
+        padding: 0 !important;
+        display: none;
+    }
+    /*contact*/
+    .contact textarea{
+        width: 695px;
+    }
+    /*chatwithbot*/
+    .chatwithbot  button{
+        padding: 6px;
+    }
+    /*connect*/
+    .connect{
+        margin-left: 85% !important;
+    }
+    .connect img{
+        width: 85%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navt{
+        display: none;
+    }
+    .canvabtn{
+        display: block;
+    }
+    .navbar-nav{
+        padding: 0 !important;
+    }
+    /*reasonto*/
+    .reasonsto .pad{
+        padding: 15px !important;
+    }
+    .reasonsto p{
+        padding: 1px ;
+    }
+    /*Featured projects1*/
+    .text p, .text h6{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    /*images*/
+    .images .card-body{
+        background-color: black;
+    }
+    .images .card{
+        height:600px;
+    }
+    /*every property*/
+    .everyproperty .features{
+    height: 470px;
+    }
+    /*contact*/
+    .contact textarea{
+        width:469px;
+    }
+    /*chatwithbot*/
+    .chatwithbot  button{
+        padding: 8px;
+    }
+    /*connect*/
+    .connect{
+        margin-left: 87% !important;
+    }
+    .connect img{
+        width: 90%;
+    }
+    
+}
+@media(min-width:1201px){
+    .navt{
+        display: none;
+    }
+    .canvabtn{
+        display: block;
+    }
+    .navbar-nav{
+        padding:0 0 0 120px !important;
+    }
+    /*every property*/
+    .everyproperty .features{
+        height: 450px;
+        }
+    /*images*/
+    .images .card-body{
+        background-color: black;
+    }
+    .images .card{
+        height:600px;
+    }
+    /*contact*/
+    .contact textarea{
+        width: 650px;
+    }
+    /*chatwithbot*/
+    .chatwithbot  button{
+        padding: 8px;
+    }
+    /*connect*/
+    .connect{
+        margin-left: 85% !important;
+    }
+    .connect img{
+        width: 95%;
+    }
+
+
+
+}
+    
+
